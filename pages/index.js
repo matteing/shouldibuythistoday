@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import Head from "next/head";
 import StepWizard from "react-step-wizard";
 
 function Footer() {
@@ -191,6 +191,33 @@ function StepMaybe() {
 export default function Home() {
   return (
     <div className="relative flex h-screen w-screen items-center justify-center overflow-hidden">
+      <Head>
+        <title>Should I buy this today?!</title>
+        <meta
+          name="description"
+          content="This quiz will help you decide whether an impulse buy is worth it."
+        />
+        <meta
+          name="keywords"
+          content="impulse buy, adhd, quiz, should i buy this today, buy, shopping"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@matteing" />
+        <meta name="twitter:creator" content="@matteing" />
+        <meta name="twitter:title" content="Should I buy this today?!" />
+        <meta
+          name="twitter:description"
+          content="This quiz will help you decide whether an impulse buy is worth it."
+        />
+        <meta
+          name="twitter:image"
+          content="https://shouldibuythistoday.com/og.png"
+        />
+        <meta
+          property="og:image"
+          content="https://shouldibuythistoday.com/og.png"
+        />
+      </Head>
       <div className="w-8/12">
         <StepWizard isHashEnabled={true}>
           <StepOne />
