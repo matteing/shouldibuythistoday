@@ -154,7 +154,7 @@ function StepFour({ goToStep }) {
 
 function StepNo() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen">
       <div className="font-bold" style={{ fontSize: "50vw" }}>
         NO
       </div>
@@ -165,7 +165,7 @@ function StepNo() {
 
 function StepSuperNo() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen inline-flex items-center justify-center">
       <div
         className="font-bold text-center leading-none"
         style={{ fontSize: "20vw" }}
@@ -179,7 +179,7 @@ function StepSuperNo() {
 
 function StepMaybe() {
   return (
-    <div className="h-screen w-screen">
+    <div className="h-screen">
       <div className="font-bold" style={{ fontSize: "20vw" }}>
         MAYBE???
       </div>
