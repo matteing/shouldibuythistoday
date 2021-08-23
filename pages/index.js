@@ -88,7 +88,7 @@ function StepThree({ nextStep, goToStep }) {
         Step 2: Research
       </h1>
       <p className="text-gray-600 text-xl mb-6">
-        Does Googling "(product name) Reddit" yield favorable results?
+        Does Googling &quot;(product name) Reddit&quot; yield favorable results?
       </p>
       <ul className="space-y-3">
         <li>
